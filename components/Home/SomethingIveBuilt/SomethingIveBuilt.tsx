@@ -284,7 +284,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                    
+                    This E-commerce application uses <span className="text-AAsecondary text-base">React</span> and <span className="text-AAsecondary text-base">Bootstrap</span> for the front-end, with <span className="text-AAsecondary text-base">Firebase</span> handling authentication and database functions. It offers a secure and responsive platform for selling products, providing an efficient user experience and simplified management for both customers and the business.
                 </p>
               </div>
               <ul
@@ -358,7 +358,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                
+                <span className="text-AAsecondary text-base">Shape Up </span>is a dynamic gym website built using <span className="text-AAsecondary text-base">React.js</span> and <span className="text-AAsecondary text-base">Bootstrap</span>, ensuring a visually appealing and responsive user interface. It leverages the power of <span className="text-AAsecondary text-base">Redux Toolkit</span> for efficient state management, enhancing the user experience. The website seamlessly integrates with APIs, providing real-time data on services, schedules, and user profiles, making it a comprehensive platform for gym enthusiasts. With a focus on user engagement and accessibility, Shape Up offers a well-rounded fitness experience and fosters a strong online community for fitness enthusiasts.
                 </p>
               </div>
               <ul
