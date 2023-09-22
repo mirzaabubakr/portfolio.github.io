@@ -58,7 +58,7 @@ export default function Home() {
   const meta = {
     title: "Abubakr - Software Engineer",
     description: `I've been working on Software development for 3 years straight. Get in touch with me to know more.`,
-    image: "./titofCercle.png",
+    image: "./favicon.ico",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
