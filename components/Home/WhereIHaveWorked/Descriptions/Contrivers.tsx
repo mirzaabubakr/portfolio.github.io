@@ -6,7 +6,12 @@ export default function Contrivers() {
   const tasks = [
     {
       text: "Developed front-end web applications using JavaScript frameworks and libraries such as React.js and Next.js",
-      keywords: ["JavaScript", "React.js", "Next.js", "front-end web applications"],
+      keywords: [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "front-end web applications",
+      ],
     },
     {
       text: "Developed back-end web and mobile applications using Node.js framework (Nest.js)",
@@ -36,10 +41,12 @@ export default function Contrivers() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer 
+            Software Engineer
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">July 2022 - Sept 2023</span>
+          <span className="font-mono text-xs text-gray-500">
+            July 2022 - Present
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}
@@ -50,7 +57,10 @@ export default function Contrivers() {
                 <span
                   className="text-gray-500 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
-                    __html: getTasksTextWithHighlightedKeyword(item.text, item.keywords),
+                    __html: getTasksTextWithHighlightedKeyword(
+                      item.text,
+                      item.keywords
+                    ),
                   }}
                 ></span>
               </div>
