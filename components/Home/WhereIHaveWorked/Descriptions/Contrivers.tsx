@@ -45,7 +45,7 @@ export default function Contrivers() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            July 2022 - Present
+            July 2022 - Dec 2023
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
